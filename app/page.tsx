@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { AgentPanel } from "@/components/agent-panel";
-import { Chat } from "@/components/Chat";
+import { Chat } from "@/components/chat";
 import type { Agent, AgentEvent, GuardrailCheck, Message } from "@/lib/types";
 import { callChatAPI } from "@/lib/api";
 
