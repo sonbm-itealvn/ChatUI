@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+
+# Output directories (Next.js)
+.next/
+out/
+dist/
+
+# Production
+build/
+
+# Next.js build cache
+.next/cache/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# Local env files
+*.local
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Typescript
+*.tsbuildinfo
+
+# Turbo / Vercel
+.vercel/
+.turbo/
+
+# Storybook build
+storybook-static/
+
+# Sentry
+.sentryclirc
+
+# Linux / system files
+*.swp
+*.swo
