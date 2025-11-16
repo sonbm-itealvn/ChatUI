@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: "/chat",
-        destination: "https://chatserver-3ntj.onrender.com/chat",
+        destination: "https://chat-server-omega-six.vercel.app/chat",
       },
     ];
   },
