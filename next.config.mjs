@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: "/chat",
-        destination: "https://chat-server-omega-six.vercel.app/chat",
+        destination: "https://127.0.0.1:8000/chat",
       },
     ];
   },
