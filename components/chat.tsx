@@ -61,7 +61,7 @@ export function Chat({ messages, onSendMessage, isLoading }: ChatProps) {
   );
 
   return (
-    <div className="flex h-full min-h-[65vh] flex-1 flex-col rounded-2xl border border-gray-200 border-t-0 bg-white shadow-lg sm:min-h-[75vh]">
+    <div className="flex flex-1 flex-col h-[75vh] sm:h-[80vh] rounded-2xl border border-gray-200 border-t-0 bg-white shadow-lg overflow-hidden">
       <div className="bg-blue-600 text-white h-12 px-4 flex items-center rounded-t-xl">
         <h2 className="font-semibold text-sm sm:text-base lg:text-lg">
           Customer View
